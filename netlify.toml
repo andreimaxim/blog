@@ -1,4 +1,4 @@
 [build]
-command = "npx eleventy"
-publish = "dist"
+command = "npm run build"
+publish = "release"
 NODE_ENV = "14.15.5"
