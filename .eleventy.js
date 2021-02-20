@@ -1,6 +1,6 @@
 module.exports = function (config) {
 
-    // TODO: Add 11ty configuration settings here
+    // TODO: Add 11ty configuration settings here.
 
     return {
         dir: {
