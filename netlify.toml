@@ -1,4 +1,6 @@
 [build]
 command = "npm run build"
 publish = "release"
-NODE_ENV = "14.15.5"
+
+[context.production]
+environment = { NODE_ENV = "production" }
