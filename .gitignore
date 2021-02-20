@@ -9,4 +9,5 @@
 .DS_Store
 
 # Local site output
-/dist
+/release
+/src/css/*.css
