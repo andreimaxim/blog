@@ -23,7 +23,7 @@ module.exports = class {
             require('tailwindcss'),
             // Automatically purge all the unnecessary CSS tags
             purgecss({
-                content: ['./dist/**/*.html']
+                content: ['index.html', '**/*.js', '**/*.html', '**/*.vue']
             }),
             require('cssnano')
         ])
