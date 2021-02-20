@@ -24,7 +24,8 @@ module.exports = class {
             // Automatically purge all the unnecessary CSS tags
             purgecss({
                 content: ['./dist/**/*.html']
-            })
+            }),
+            require('cssnano')
         ])
             .process(rawCss, { from: rawFilepath })
             .then(result => result.css);
