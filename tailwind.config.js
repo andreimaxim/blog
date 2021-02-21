@@ -10,18 +10,17 @@ for people to track presentation changes separately from the setup changes.
 More details here:
 
 https://tailwindcss.com/docs/configuration
-
  */
 module.exports = {
-  // Include custom Tailwind CSS presets
-  theme: {
-    extend: {}
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
-  purge: [
-    './src/**/*.liquid'
-  ],
+    // Include custom Tailwind CSS presets
+    theme: {
+        extend: {}
+    },
+    variants: {
+        extend: {},
+    },
+    plugins: [],
+    purge: [
+        './src/**/*.liquid'
+    ],
 }

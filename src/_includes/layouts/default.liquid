@@ -13,10 +13,35 @@
     <link rel="canonical" href="{{ page.url }}" />
     <link rel="stylesheet" href="/css/screen.css" />
 </head>
-<body>
+<body class="font-sans">
 
-<div class="container">
+<div class="container max-w-3xl mx-auto px-20 py-10">
+{% comment %}
+    <header>
+        <nav>
+            <ul class="flex justify-end">
+                <li class="ml-4"><a href="/">About</a></li>
+                <li class="ml-4"><a href="/posts/">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+{% endcomment %}
+    <section class="mt-16">
+        <h1 class="text-5xl font-bold mb-6">
+            Hi, I am Andrei Maxim.
+        </h1>
+        <p class="text-lg text-gray-500">
+            I'm a freelance software engineer that has been building Ruby and
+            Ruby on Rails applications for more than a decade. Currently I am
+            building APIs for the World Economic Forum.
+        </p>
+    </section>
 
+{% comment %}
+    <section class="mt-16">
+        <h2 class="text-4xl font-bold mb-6">Projects</h2>
+    </section>
+{% endcomment %}
 </div>
 
 </body>
