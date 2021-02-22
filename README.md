@@ -11,7 +11,7 @@ The stack is rather simple:
 
 In the future it might include a JS framework.
 
-There are two main commands:
+The two main commands:
 
 * `npm start` which will start a live server
 * `npm run build` which will build the static site in a `release` folder
