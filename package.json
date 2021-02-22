@@ -13,10 +13,10 @@
   },
   "scripts": {
     "build": "npm-run-all build:css build:html",
-    "build:css": "postcss src/_includes/css/tailwind.css -o src/css/screen.css",
+    "build:css": "postcss src/_includes/css/tailwind.css -o src/assets/css/screen.css",
     "build:html": "eleventy",
     "watch": "npm-run-all --parallel watch:css watch:html",
-    "watch:css": "postcss src/_includes/css/tailwind.css -o src/css/screen.css --watch",
+    "watch:css": "postcss src/_includes/css/tailwind.css -o src/assets/css/screen.css --watch",
     "watch:html": "eleventy --serve",
     "start": "npm run watch"
   },

@@ -1,10 +1,7 @@
 module.exports = function (config) {
 
-    // Copy all the files generated via PostCSS without performing any kind of
-    // processing on top of that.
-    config.addPassthroughCopy("./src/css");
-    // Copy over all the images.
-    config.addPassthroughCopy("./src/img")
+    // Copy all the assets files directly
+    config.addPassthroughCopy("./src/assets");
 
     return {
         dir: {
