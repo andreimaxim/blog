@@ -1,35 +1,3 @@
-@font-face {
-    font-family: 'atkinson_hyperlegiblebold';
-    src: url('/assets/font/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'),
-    url('/assets/font/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'atkinson_hyperlegibleBdIt';
-    src: url('/assets/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'),
-    url('/assets/font/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'atkinson_hyperlegibleitalic';
-    src: url('/assets/font/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'),
-    url('/assets/font/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'atkinson_hyperlegibleregular';
-    src: url('/assets/font/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
-    url('/assets/font/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
